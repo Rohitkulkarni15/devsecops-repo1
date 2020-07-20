@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+ rohitapp1:
+  image: nginx:rohitv3
+  build: https://github.com/rohitkulkarni15/devsecops-repo1.git
+  container_name: rhc1
+  ports:
+   - "8766:80"
